@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "999935772477771\r\ntxt1.txt",
+      "output": "Masukkan key: Masukkan file: kucing kamu memakan beruang kesayangan",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 20
+    },
+    {
+      "name": "Test 2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "879240895109735\r\ntxt3.txt",
+      "output": "Masukkan key: Masukkan file: dreht sich die Erde immer langsamer",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 20
+    },
+    {
+      "name": "Test 3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "963427895272534\r\ntxt2.txt",
+      "output": "Masukkan key: Masukkan file: bro itu si CEP18 naruh spyware di komputer elu",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 20
+    },
+    {
+      "name": "Test 4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "776420000300014\r\ntxt4.txt",
+      "output": "Masukkan key: Masukkan file: na si go re ng",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 20
+    },
+    {
+      "name": "Test 5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "631547005176325\r\ntxt4.txt",
+      "output": "Masukkan key: Masukkan file: ca pe kk me ndi ng ti dur ygy",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 20
+    }
+  ]
+}
